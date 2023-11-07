@@ -3,11 +3,13 @@ import React from 'react';
 
 import Template from './components/Template';
 import Homepage from './components/Homepage';
+import PageFive from './components/PageFive';
 
 const App = () => {
   return (
     <View>
-      <Homepage />
+      {/* <Homepage /> */}
+      <PageFive />
     </View>
   );
 };
