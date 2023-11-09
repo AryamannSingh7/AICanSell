@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
   },
   bigBlue: {
     width: 426,
-    height: 426,
+    height: 650,
     marginTop: 311,
   },
   smallYellow: {
@@ -91,6 +91,7 @@ const styles = StyleSheet.create({
   },
   container: {
     position: 'absolute',
+    maxHeight: 750,
   },
   headerWrapper: {
     flexDirection: 'row',
